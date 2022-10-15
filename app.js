@@ -14,11 +14,11 @@ let bikeObject = {
     description: 'Discover very exciting offers and book online to save money with our convenient and hassle free booking.'
 };
 
-let busObject = {
-    vehicle: 'Bus',
-    imageUrl: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80',
-    farePerKilo: 10,
-    capacity: 10,
+let helicopterObject = {
+    vehicle: 'Helicopter',
+    imageUrl: 'https://images.unsplash.com/photo-1592569237690-69813b318567?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80',
+    farePerKilo: 100,
+    capacity: 4,
     description: 'Discover very exciting offers and book online to save money with our convenient and hassle free booking.'
 };
 
@@ -68,7 +68,7 @@ function displayServices(service) {
 
 displayServices(carObject);
 displayServices(bikeObject);
-displayServices(busObject);
+displayServices(helicopterObject);
 
 
 
